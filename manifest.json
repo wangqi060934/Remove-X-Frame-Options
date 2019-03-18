@@ -1,0 +1,14 @@
+{
+    "name": "Remove-X-Frame-Options",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Remove the 'X-Frame-Options' in the response header",
+    "permissions": [
+        "webRequest","webRequestBlocking","\u003Call_urls>"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}
